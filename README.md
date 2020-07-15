@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# reactjs_covid19_tracker
+A simple covid19 tracker using ReactJS, MaterialUI and chartJS .. Uses some free covid19 APIs.
+>>>>>>> 0545dfcfb57a862e21638ea38919f577794b03a8
