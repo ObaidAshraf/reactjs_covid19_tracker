@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid'
 import { makeStyles } from '@material-ui/core/styles'
 
@@ -30,8 +29,8 @@ export default function Info({ countries }) {
     let [confirmed, setConfirmed] = useState(0)
     let [deaths, setDeaths] = useState(0)
     let [recovered, setRecovered] = useState(0)
-    let [active, setActive] = useState(0)
-    let [date, setDate] = useState("")
+    // let [active, setActive] = useState(0)
+    // let [date, setDate] = useState("")
 
     useEffect( () => {
         if (country === "" || country === "global") {

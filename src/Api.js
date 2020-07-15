@@ -1,21 +1,19 @@
-import React from 'react'
-
 const URL = 'https://api.covid19api.com/'
 
 export const fetchCountry = async () => {
-    const response = await fetch(`${URL}` + "countries")
+    const response = await fetch(URL + "countries")
     const jsonData = await response.json()
     return jsonData
 }
 
 export const fetchCountryData = async (country) => {
-    const response = await fetch(`${URL}` + "total/country/" + `${country}`)
+    const response = await fetch(URL + "total/country/" + country)
     const jsonData = await response.json()
     return jsonData
 }
 
 export const fetchGlobalData = async () => {
-    const response = await fetch(`${URL}` + "summary")
+    const response = await fetch(URL + "summary")
     const jsonData = await response.json()
     return jsonData
 }
